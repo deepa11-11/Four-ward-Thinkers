@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        :root {
+            --primary-color: #0ea5e9;
+            --primary-color-dark: #0284c7;
+            --text-light: #f3f4f6;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color: #1a1a1a;
+            color: var(--text-light);
+        }
+
+        nav {
+            width: 100%;
+            padding: 2rem 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color-dark);
+        }
+
+        .content {
+            padding: 5rem;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-family: "Sedgwick Ave Display", cursive;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            font-family: "Alkatra", cursive;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .mentor-availability {
+            display: none;
+            position: absolute;
+            top: 60px; 
+            right: 5rem;
+            background: rgba(98, 96, 96, 0.9);
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .mentor-availability h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .availability-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .availability-item {
+            margin: 0.5rem 0;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f3f4f6;
+            color: black;
+        }
+    </style>
+    <title>About Us - SLIET Mentorship Platform</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">SLIET Mentorship Platform</div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="faculty.html">FACULTY</a></li>
+            <li><a href="javascript:void(0);" onclick="toggleAvailability()">FACULTY AVAILABILITY</a></li>
+            <li><a href="aboutus.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <h1>About Us</h1>
+        <p>
+            The SLIET Mentorship Program is dedicated to fostering academic and personal growth among students. Our faculty members are committed to providing guidance, support, and resources to help students navigate their educational and career paths effectively.
+        </p>
+        <p>
+            Through one-on-one mentoring sessions, students gain valuable insights and advice tailored to their individual needs. Our goal is to empower students to achieve their full potential and succeed in their chosen fields.
+        </p>
+    </div>
+
+    <!-- Faculty Availability Section -->
+    <div id="mentor-availability" class="mentor-availability">
+        <h2>Faculty Availability</h2>
+        <ul id="faculty-list" class="availability-list"></ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SLIET Mentorship Program</p>
+    </footer>
+
+    <script>
+        function toggleAvailability() {
+            const availabilityContainer = document.getElementById("mentor-availability");
+            availabilityContainer.style.display = availabilityContainer.style.display === "none" || availabilityContainer.style.display === "" ? "block" : "none";
+        }
+
+        const facultyAvailability = [
+            { name: "Dr. Damanpreet Singh", subjects: [{ subject: "Software Engineering", startTime: "3:00 PM", endTime: "4:00 PM" }] },
+            { name: "Dr. Satish Kumar", subjects: [{ subject: "Database Management Systems", startTime: "1:00 PM", endTime: "2:00 PM" }, { subject: "Compiler Design", startTime: "2:00 PM", endTime: "3:00 PM" }] }
+        ];
+
+        const facultyListElement = document.getElementById('faculty-list');
+
+        facultyAvailability.forEach(faculty => {
+            faculty.subjects.forEach(subject => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('availability-item');
+                listItem.textContent = `${faculty.name} - ${subject.subject} (${subject.startTime} to ${subject.endTime})`;
+                facultyListElement.appendChild(listItem);
+            });
+        });
+    </script>
+</body>
+</html>
