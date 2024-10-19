@@ -5,7 +5,7 @@ const mentors = [
         position: "Professor",
         email: "birmohansingh@sliet.ac.in, birmohans@gmail.com",
         phone: "+91-1672-253208",
-        image: "images/Dr. Birmohan Singh.jpg"
+        image: "Dr. Birmohan Singh.jpg"
     },
     {
         name: "Dr. Damanpreet Singh",
@@ -13,7 +13,7 @@ const mentors = [
         position: "Professor",
         email: "damanpreets@sliet.ac.in",
         phone: "+91-1672-253210",
-        image: "images/Dr. Damanpreet Singh.jpg"
+        image: "Dr. Damanpreet Singh.jpg"
     },
     {
         name: "Dr. Major Singh Goraya",
@@ -21,7 +21,7 @@ const mentors = [
         position: "Professor",
         email: "mjrsingh@yahoo.com",
         phone: "01672-253212",
-        image: "images/Dr. Major Singh Goraya.jpg"
+        image: "Dr. Major Singh Goraya.jpg"
     },
     {
         name: "Dr. Manoj Sachan",
@@ -29,7 +29,7 @@ const mentors = [
         position: "Professor",
         email: "manojsachan@sliet.ac.in, manojsachan@gmail.com",
         phone: "+91-1672-253214",
-        image: "images/Dr. Manoj Sachan.jpg"
+        image: "Dr. Manoj Sachan.jpg"
     },
     {
         name: "Dr. Gurjinder Kaur",
@@ -37,7 +37,7 @@ const mentors = [
         position: "Associate Professor",
         email: "gurjinder13@yahoo.com",
         phone: "+91-1672-253326",
-        image: "images/Dr. Gurjinder Kaur.jpg"
+        image: "Dr. Gurjinder Kaur.jpg"
     },
     {
         name: "Dr. Amar Nath",
@@ -45,7 +45,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "amarnath@sliet.ac.in",
         phone: "01672-253610",
-        image: "images/Dr. Amar Nath.jpg"
+        image: "Dr. Amar Nath.jpg"
     },
     {
         name: "Dr. Jagdeep Singh",
@@ -53,7 +53,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "jagdeep@sliet.ac.in; jagdeepknit@gmail.com",
         phone: "01672-253320",
-        image: "images/Dr. Jagdeep Singh.jpg"
+        image: "Dr. Jagdeep Singh.jpg"
     },
     {
         name: "Dr. Manminder Singh",
@@ -61,7 +61,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "manminderldh@gmail.com, manmindersingh@sliet.ac.in",
         phone: "+91-01672-253328",
-        image: "images/Dr. Manminder Singh.jpg"
+        image: "Dr. Manminder Singh.jpg"
     },
     {
         name: "Dr. Preetpal Kaur Buttar",
@@ -69,7 +69,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "preetpal@sliet.ac.in",
         phone: "01672-253614",
-        image: "images/Dr. Preetpal Kaur Buttar.jpg"
+        image: "Dr. Preetpal Kaur Buttar.jpg"
     },
     {
         name: "Dr. Tajinder Singh",
@@ -77,7 +77,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "tajindersingh@sliet.ac.in",
         phone: "91-6283963279",
-        image: "images/Dr. Tajinder Singh.jpg"
+        image: "Dr. Tajinder Singh.jpg"
     },
     {
         name: "Dr. Utkarsh",
@@ -85,7 +85,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "-",
         phone: "-",
-        image: "images/Dr. Utkarsh.jpg"
+        image: "Dr. Utkarsh.jpg"
     },
     {
         name: "Dr. VINOD KUMAR VERMA",
@@ -93,7 +93,7 @@ const mentors = [
         position: "Assistant Professor",
         email: "vinod5881@gmail.com",
         phone: "+91-1672-253218",
-        image: "images/Dr. VINOD KUMAR VERMA.jpg"
+        image: "Dr. VINOD KUMAR VERMA.jpg"
     },
     {
         name: "Jaspal Singh",
@@ -101,23 +101,23 @@ const mentors = [
         position: "Assistant Professor",
         email: "safrisoft@yahoo.com, jaspalsingh@sliet.ac.in",
         phone: "01672-253327",
-        image: "images/Jaspal Singh.jpg"
+        image: "Jaspal Singh.jpg"
     },
     {
         name: "Rahul Gautam",
-        qualifications: "Ph.D. pursuing, M.Tech (Computer Science and Applications) from Thapar University, Patiala., B.Tech(Computer Science and Info. Technology) from Sir Chhotu Ram Inst. of Engg. & Technology, CCS University Campus, Meerut.",
+        qualifications: "Ph.D. pursuing, M.Tech (Computer Science and Applications), B.Tech(Computer Science and Info. Technology) ",
         position: "Assistant Professor",
         email: "rahulgautam@sliet.ac.in",
         phone: "+91-1672-25 3612",
-        image: "images/Rahul Gautam.jpg"
+        image: "Rahul Gautam.jpg"
     },
     {
         name: "Dr. Jatinder Pal Singh",
-        qualifications: "B.Tech - Computer Science and Engineering, M.Tech - Computer Science and Engineering, Ph.D. - Computer Science and Engineering",
+        qualifications: "B.Tech - Computer Science and Engineering, M.Tech - Computer Science and Engineering, ",
         position: "Assistant Professor(Contract)",
         email: "sachdeva.jp@gmail.com, jatinderpalsingh@sliet.ac.in",
         phone: "-",
-        image: "images/Dr. Jatinder Pal Singh.jpg"
+        image: "Dr. Jatinder Pal Singh.jpg"
     },
     {
         name: "Sukhpreet Singh",
@@ -125,7 +125,7 @@ const mentors = [
         position: "Assistant Professor(Contract)",
         email: "sukhpreet.manshahia@gmail.comn",
         phone: "-",
-        image: "images/Sukhpreet Singh.jpg"
+        image: "Sukhpreet Singh.jpg"
     },
     {
         name: "Abhishek",
@@ -133,15 +133,15 @@ const mentors = [
         position: "Guest/Part-Time Teachers",
         email: "-",
         phone: "-",
-        image: "images/Abhishek.png"
+        image: "Abhishek.png"
     },
     {
         name: "Chinu",
-        qualifications: "B.Tech(IT) , M.Tech(Computer Science & Engineering), Ph.D (Big Data, Hadoop, MongoDB) (Computer Science & Engineering)",
+        qualifications: "B.Tech(IT) , M.Tech(Computer Science & Engineering), Ph.D (Big Data, Hadoop, MongoDB) ",
         position: "Guest/Part-Time Teachers",
         email: "contactvikashgarg@gmail.com",
         phone: "9988610629",
-        image: "images/Chinu.jpg"
+        image: "Chinu.jpg"
     },
     
     {
@@ -150,7 +150,7 @@ const mentors = [
         position: "Guest/Part-Time Teachers",
         email: "-",
         phone: "-",
-        image: "images/Abhishek.png"
+        image: "Abhishek.png"
     },
     {
         name: "Sunita Rani",
@@ -158,13 +158,13 @@ const mentors = [
         position: "Guest/Part-Time Teachers",
         email: "sunitarani@sliet.ac.in",
         phone: "8196013222",
-        image: "images/Sunita Rani.jpg"
+        image: "Sunita Rani.jpg"
     },
 ];
 
 function renderMentors(mentorsToDisplay) {
     const mentorContainer = document.getElementById('mentor-container');
-    mentorContainer.innerHTML = '';  // Clear previous content
+    mentorContainer.innerHTML = '';  
 
     mentorsToDisplay.forEach((mentor) => {
         const mentorProfile = document.createElement('section');
@@ -218,7 +218,7 @@ function openBookingModal(mentorName) {
         const slot = document.getElementById('slot').value;
 
         alert(`Booking confirmed with ${mentorName}\nName: ${name}\nDepartment: ${department}\nEmail: ${email}\nSlot: ${slot}`);
-        modal.style.display = 'none'; // Close the modal after submission
+        modal.style.display = 'none'; 
     };
 }
 
